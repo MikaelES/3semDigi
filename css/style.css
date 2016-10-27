@@ -34,9 +34,15 @@ article {
   top:-140px;
   background-color:#113311;
 }
-/* Changed styling for showing names so that the green box disappears completely */
+/* Changed styling for showing names back so that the green box button doesn't disappears completely */
+/* moved green button to upper left corner where it is easier to see and click*/
  .uncover {
-  display: none;
+   position: relative;
+   width: 20%;
+   height: 10%;
+   top: 285px;
+   background-color: #115411;
+  
 }
 .cover:hover, .uncover:hover {
   opacity:0.3;
